@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Newsreader:opsz@6..72&display=swap');
 
 
-font-family: 'Cormorant Garamond', sans-serif,'times new roman';
+font-family: 'Cormorant Garamond', sans-serif,'times new roman', serif;
 
 h1, h2, h3 {
-    color: #1d1395;
+    color: #7900e3;
   }
 
 body {
-    background-color: #f2dcf2;
+    background-color: #bff9f6;
     font-family: 'Cormorant Garamond', sans-serif;
   }
 
 nav, footer  {
-    color: #1d1395;
+    color: #7900e3;
 }
 
 main li:hover {
     border: 2px solid white;
   }
+
 
 .hero {
     text-align: center;
@@ -61,10 +62,12 @@ p {
     font-size: 1.25em
 }
 
-
+navbar {
+    align-items: center;
+}
 
 .drinks {
-    background-color: #cc8ecc;
+    background-color: #b6faf7;
   }
 
 .beverage::before {
